@@ -1,0 +1,40 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+#gemspec
+#gem "rails"
+gem 'activesupport'
+gem 'appium_lib'
+gem 'appium_lib_core'
+gem 'builder', '>= 2.1.2'
+gem 'cucumber', '~> 3.1', '>= 3.1.2'
+gem 'chunky_png'
+gem 'concurrent-ruby'
+gem 'cucumber-core', '~> 3.2.0'
+gem 'cucumber-expressions', '~> 6.0.1'
+gem 'cucumber-tag_expressions'
+gem 'cucumber-wire', '~> 0.0.1'
+gem 'gettext'
+gem 'ffi'
+gem 'gherkin', '~> 5.1.0'
+gem 'git'
+gem 'i18n'
+gem 'io-console'
+gem 'json', '~> 2.3.0'
+gem 'multi_json'
+gem 'nokogiri', '~> 1.8.1'
+gem 'parallel'
+gem 'Platform'
+gem 'rake'
+gem 'rdoc'
+gem 'rmagick'
+gem 'rubysl-open3'
+gem 'rubyzip'
+gem 'selenium-webdriver'
+gem 'allure-cucumber', '~> 0.6.1'
+gem 'translit'
+gem 'net-ssh'
+gem 'net-scp'
+gem 'net-ssh-shell'

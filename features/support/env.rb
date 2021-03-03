@@ -1,5 +1,7 @@
 require 'appium_lib'
 
+$project_path = "/Users/danilov.and/RubymineProjects/AutoTestCats"
+
 def caps
   {caps:{
       deviceName: "Name",
@@ -42,3 +44,4 @@ def waiting (id, time)
     break if spent_time.to_i > time.to_i
   end
 end
+
