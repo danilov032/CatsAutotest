@@ -10,7 +10,6 @@ def start_instance_appium_mac (p, bp, udid)
 end
 
 def start_instance_appium(p, bp, udid)
-  # %x[gnome-terminal --window -t "Порты: #{p} #{bp}. Телефон: #{ENV["device"]} (#{udid})" -- sh -c "appium -p #{p} -bp #{bp} -U #{udid}" 2>/dev/null]
   %x[gnome-terminal --window -t "Порты: #{p} #{bp}. Телефон: #{ENV["device"]} (#{udid})" -- sh -c "appium -p #{p} -bp #{bp} " 2>/dev/null]
 end
 
